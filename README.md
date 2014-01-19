@@ -30,4 +30,4 @@ $ rustc hello.rs && ./hello
 
 ## License
 
-MIT licensed.
+Package is released under [MIT License](http://www.opensource.org/licenses/MIT).
