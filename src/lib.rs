@@ -1,3 +1,5 @@
-pub fn hello() {
-  println!("Hello, World!");
+mod hello {
+    pub fn world() {
+        println!("Hello, World!")
+    }
 }
