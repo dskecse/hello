@@ -1,2 +1,4 @@
 .rust
 build
+target
+Cargo.lock

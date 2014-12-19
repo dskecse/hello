@@ -4,29 +4,24 @@ A 'hello world' package for Rust.
 
 ## Installation
 
-You can install `hello` with `rustpkg`:
-
-```
-$ rustpkg install github.com/dskecse/hello
-```
+To depend on a library, add it to your `Cargo.toml`.
+Pull in that library using `extern crate` in your `main.rs`.
 
 ## Usage
 
 Here's a simple program using `hello`:
 
 ```rust
-extern mod hello;
+extern crate hello;
 
 fn main() {
-    hello::world();
+    hello();
 }
 ```
 
-Suppose, you put that into a file called `hello.rs`, you can:
+You can simply run it with:
 
-```
-$ rustc hello.rs && ./hello
-```
+    $ cargo run
 
 ## License
 
